@@ -11,7 +11,7 @@ const images = () => {
     imgPopup.style.alignItems = 'center';
     imgPopup.style.display = 'none';
 
-    imgPopup.appendChild(bigImage);
+    imgPopup.appendChild(itemImg);
 
     workSection.addEventListener('click', (e) => {
         e.preventDefault();
